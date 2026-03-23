@@ -78,7 +78,7 @@ Source2: kvm_stat.logrotate
 ExcludeArch:    %{ix86}
 
 # Stable patches
-Patch0: https://github.com/OpenGamingCollective/linux/releases/download/v6.19.8-ogc1/monolithic.patch
+Patch0: https://github.com/CronaTronic/linux-ogc-frl/releases/download/v6.19.8-ogc2/monolithic.patch
 
 %define __spec_install_post /usr/lib/rpm/brp-compress || :
 %define debug_package %{nil}
