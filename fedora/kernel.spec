@@ -55,7 +55,7 @@ Version: %{_basekver}.%{_stablekver}
 %define customver 200
 %endif
 
-Release:%{customver}.ogc-frl%{?dist}
+Release:%{customver}.ogcfrl%{?dist}
 
 # Define rawhide fedora version
 %define _rawhidever 44
